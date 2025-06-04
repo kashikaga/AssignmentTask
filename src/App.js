@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Play, Key, Settings, Loader2, CheckCircle, XCircle } from 'lucide-react';
+import './App.css'; // Assuming you have a CSS file for styles
 
 const AppifyActorRunner = () => {
   const [apiKey, setApiKey] = useState('');
